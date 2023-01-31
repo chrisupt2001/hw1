@@ -12,6 +12,7 @@ const eventHandler = () => {
     }
 
     addButton.addEventListener('click', updateDomWithAddedNumbers);
+    addButton.addEventListener('click', updateDomWithAddedNumbers);
 
 }
 
