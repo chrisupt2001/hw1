@@ -1,4 +1,4 @@
-import {add} from "./math";
+import {add, multiply} from "./math";
 
 const eventHandler = () => {
     const addButton = document.getElementById('add');
@@ -9,7 +9,10 @@ const eventHandler = () => {
     const updateDomWithAddedNumbers = () => {
         result.innerHTML = //parseInt(number1.ariaValueMax, 10)+parseInt(number2.ariaValueMax, 10);
         add(number1.value,number2.value)
+        multiply(number1.value,number2.value)
     }
+
+
 
     addButton.addEventListener('click', updateDomWithAddedNumbers);
     addButton.addEventListener('click', updateDomWithAddedNumbers);
