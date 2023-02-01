@@ -1,3 +1,5 @@
+//how events such as user operations are handled
+
 import {add, multiply} from "./math";
 
 const eventHandler = () => {
@@ -10,7 +12,7 @@ const eventHandler = () => {
     const updateDomWithAddedNumbers = () => {
         result.innerHTML = add(number1.value,number2.value)
     }
-    
+
     const updateDomWithMultipliedNumbers = () => {
         result.innerHTML = multiply(number1.value,number2.value)
     }
